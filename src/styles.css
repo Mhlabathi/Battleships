@@ -3,36 +3,29 @@
     padding: 2px;
 }
 
-.dropdown {
-    background-color: rgb(118, 118, 118);
-    position: relative;
-    display: inline-block;
+body{
+    display: flex;
+    justify-content: center;
+
 }
 
-#dropbtn {
-    cursor: pointer;
+.left-player-container, .right-player-container {
+    padding: 30px;
+    background-color: rgb(10, 110, 197);
+    border: 2px solid purple;
 }
 
-#dropbtn:hover, #dropbtn:focus {
-    background-color: chocolate;
+.left-player-board, .right-player-board{
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(10, 1fr);
+    gap: 2px;
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    overflow: auto;
-    min-width: 150px;
-    border-radius: 5px;
-    background-color: blueviolet;
-    z-index: 1;
-}
-
-.dropdown-content a {
-    display: block;
-    color: black;
-    border-radius: 5px;
-}
-
-.show {
-    display: block;
+.cell {
+    width: 30px;
+    height: 30px;
+    background-color: aquamarine;
+    text-align: center;
+    
 }

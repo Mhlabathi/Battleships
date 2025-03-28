@@ -3,15 +3,217 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dropdown</title>
+    <title>Battleships</title>
 </head>
 <body>
-    <div class="Dropdown">
-        <button id="dropbtn">Dropdown</button>
-        <div id="myDropdown" class="dropdown-content">
-            <a href="">Link1</a>
-            <a href="">Link2</a>
-            <a href="">Link3</a>
+    <div class="left-player-container">
+        <h2 class="left-header">Player 1</h2>
+        <div class="left-player-board">
+            <!-- <div class="cell" id="001"></div>
+            <div class="cell" id="011"></div>
+            <div class="cell" id="021"></div>
+            <div class="cell" id="031"></div>
+            <div class="cell" id="041"></div>
+            <div class="cell" id="051"></div>
+            <div class="cell" id="061"></div>
+            <div class="cell" id="071"></div>
+            <div class="cell" id="081"></div>
+            <div class="cell" id="091"></div>
+            <div class="cell" id="101"></div>
+            <div class="cell" id="111"></div>
+            <div class="cell" id="121"></div>
+            <div class="cell" id="131"></div>
+            <div class="cell" id="141"></div>
+            <div class="cell" id="151"></div>
+            <div class="cell" id="161"></div>
+            <div class="cell" id="171"></div>
+            <div class="cell" id="181"></div>
+            <div class="cell" id="191"></div>
+            <div class="cell" id="201"></div>
+            <div class="cell" id="211"></div>
+            <div class="cell" id="221"></div>
+            <div class="cell" id="231"></div>
+            <div class="cell" id="241"></div>
+            <div class="cell" id="251"></div>
+            <div class="cell" id="261"></div>
+            <div class="cell" id="271"></div>
+            <div class="cell" id="281"></div>
+            <div class="cell" id="291"></div>
+            <div class="cell" id="301"></div>
+            <div class="cell" id="311"></div>
+            <div class="cell" id="321"></div>
+            <div class="cell" id="331"></div>
+            <div class="cell" id="341"></div>
+            <div class="cell" id="351"></div>
+            <div class="cell" id="361"></div>
+            <div class="cell" id="371"></div>
+            <div class="cell" id="381"></div>
+            <div class="cell" id="391"></div>
+            <div class="cell" id="401"></div>
+            <div class="cell" id="411"></div>
+            <div class="cell" id="421"></div>
+            <div class="cell" id="431"></div>
+            <div class="cell" id="441"></div>
+            <div class="cell" id="451"></div>
+            <div class="cell" id="461"></div>
+            <div class="cell" id="471"></div>
+            <div class="cell" id="481"></div>
+            <div class="cell" id="491"></div>
+            <div class="cell" id="501"></div>
+            <div class="cell" id="511"></div>
+            <div class="cell" id="521"></div>
+            <div class="cell" id="531"></div>
+            <div class="cell" id="541"></div>
+            <div class="cell" id="551"></div>
+            <div class="cell" id="561"></div>
+            <div class="cell" id="571"></div>
+            <div class="cell" id="581"></div>
+            <div class="cell" id="591"></div>
+            <div class="cell" id="601"></div>
+            <div class="cell" id="611"></div>
+            <div class="cell" id="621"></div>
+            <div class="cell" id="631"></div>
+            <div class="cell" id="641"></div>
+            <div class="cell" id="651"></div>
+            <div class="cell" id="661"></div>
+            <div class="cell" id="671"></div>
+            <div class="cell" id="681"></div>
+            <div class="cell" id="691"></div>
+            <div class="cell" id="701"></div>
+            <div class="cell" id="711"></div>
+            <div class="cell" id="721"></div>
+            <div class="cell" id="731"></div>
+            <div class="cell" id="741"></div>
+            <div class="cell" id="751"></div>
+            <div class="cell" id="761"></div>
+            <div class="cell" id="771"></div>
+            <div class="cell" id="781"></div>
+            <div class="cell" id="791"></div>
+            <div class="cell" id="801"></div>
+            <div class="cell" id="811"></div>
+            <div class="cell" id="821"></div>
+            <div class="cell" id="831"></div>
+            <div class="cell" id="841"></div>
+            <div class="cell" id="851"></div>
+            <div class="cell" id="861"></div>
+            <div class="cell" id="871"></div>
+            <div class="cell" id="881"></div>
+            <div class="cell" id="891"></div>
+            <div class="cell" id="901"></div>
+            <div class="cell" id="911"></div>
+            <div class="cell" id="921"></div>
+            <div class="cell" id="931"></div>
+            <div class="cell" id="941"></div>
+            <div class="cell" id="951"></div>
+            <div class="cell" id="961"></div>
+            <div class="cell" id="971"></div>
+            <div class="cell" id="981"></div>
+            <div class="cell" id="991"></div> -->
+        </div>
+    </div>
+    <div class="right-player-container">
+        <h2 class="right-header">Player 2</h2>
+        <div class="right-player-board">
+            <!-- <div class="cell" id="002"></div>
+            <div class="cell" id="012"></div>
+            <div class="cell" id="022"></div>
+            <div class="cell" id="032"></div>
+            <div class="cell" id="042"></div>
+            <div class="cell" id="052"></div>
+            <div class="cell" id="062"></div>
+            <div class="cell" id="072"></div>
+            <div class="cell" id="082"></div>
+            <div class="cell" id="092"></div>
+            <div class="cell" id="102"></div>
+            <div class="cell" id="112"></div>
+            <div class="cell" id="122"></div>
+            <div class="cell" id="132"></div>
+            <div class="cell" id="142"></div>
+            <div class="cell" id="152"></div>
+            <div class="cell" id="162"></div>
+            <div class="cell" id="172"></div>
+            <div class="cell" id="182"></div>
+            <div class="cell" id="192"></div>
+            <div class="cell" id="202"></div>
+            <div class="cell" id="212"></div>
+            <div class="cell" id="222"></div>
+            <div class="cell" id="232"></div>
+            <div class="cell" id="242"></div>
+            <div class="cell" id="252"></div>
+            <div class="cell" id="262"></div>
+            <div class="cell" id="272"></div>
+            <div class="cell" id="282"></div>
+            <div class="cell" id="292"></div>
+            <div class="cell" id="302"></div>
+            <div class="cell" id="312"></div>
+            <div class="cell" id="322"></div>
+            <div class="cell" id="332"></div>
+            <div class="cell" id="342"></div>
+            <div class="cell" id="352"></div>
+            <div class="cell" id="362"></div>
+            <div class="cell" id="372"></div>
+            <div class="cell" id="382"></div>
+            <div class="cell" id="392"></div>
+            <div class="cell" id="402"></div>
+            <div class="cell" id="412"></div>
+            <div class="cell" id="422"></div>
+            <div class="cell" id="432"></div>
+            <div class="cell" id="442"></div>
+            <div class="cell" id="452"></div>
+            <div class="cell" id="462"></div>
+            <div class="cell" id="472"></div>
+            <div class="cell" id="482"></div>
+            <div class="cell" id="492"></div>
+            <div class="cell" id="502"></div>
+            <div class="cell" id="512"></div>
+            <div class="cell" id="522"></div>
+            <div class="cell" id="532"></div>
+            <div class="cell" id="542"></div>
+            <div class="cell" id="552"></div>
+            <div class="cell" id="562"></div>
+            <div class="cell" id="572"></div>
+            <div class="cell" id="582"></div>
+            <div class="cell" id="592"></div>
+            <div class="cell" id="602"></div>
+            <div class="cell" id="612"></div>
+            <div class="cell" id="622"></div>
+            <div class="cell" id="632"></div>
+            <div class="cell" id="642"></div>
+            <div class="cell" id="652"></div>
+            <div class="cell" id="662"></div>
+            <div class="cell" id="672"></div>
+            <div class="cell" id="682"></div>
+            <div class="cell" id="692"></div>
+            <div class="cell" id="702"></div>
+            <div class="cell" id="712"></div>
+            <div class="cell" id="722"></div>
+            <div class="cell" id="732"></div>
+            <div class="cell" id="742"></div>
+            <div class="cell" id="752"></div>
+            <div class="cell" id="762"></div>
+            <div class="cell" id="772"></div>
+            <div class="cell" id="782"></div>
+            <div class="cell" id="792"></div>
+            <div class="cell" id="802"></div>
+            <div class="cell" id="812"></div>
+            <div class="cell" id="822"></div>
+            <div class="cell" id="832"></div>
+            <div class="cell" id="842"></div>
+            <div class="cell" id="852"></div>
+            <div class="cell" id="862"></div>
+            <div class="cell" id="872"></div>
+            <div class="cell" id="882"></div>
+            <div class="cell" id="892"></div>
+            <div class="cell" id="902"></div>
+            <div class="cell" id="912"></div>
+            <div class="cell" id="922"></div>
+            <div class="cell" id="932"></div>
+            <div class="cell" id="942"></div>
+            <div class="cell" id="952"></div>
+            <div class="cell" id="962"></div>
+            <div class="cell" id="972"></div>
+            <div class="cell" id="982"></div>
+            <div class="cell" id="992"></div> -->
         </div>
     </div>
 </body>
